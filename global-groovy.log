@@ -1,0 +1,43 @@
+2022-03-11 16:28:47,366 INFO  [log] 13828
+2022-03-11 16:28:51,594 INFO  [log] 
+2022-03-11 16:28:51,627 INFO  [log] 4
+2022-03-11 16:28:51,640 INFO  [log] Email firstname lastname properties
+2022-03-11 16:28:51,640 INFO  [log] Creat customer
+2022-03-11 16:28:51,641 INFO  [log] Get customer by Id
+2022-03-11 16:28:51,651 INFO  [log] Delete by Id
+2022-03-11 16:28:55,266 INFO  [log] Email firstname lastname properties
+2022-03-11 16:28:55,270 INFO  [log] Creat customer
+2022-03-11 16:28:55,273 INFO  [log] Get customer by Id
+2022-03-11 16:28:55,274 INFO  [log] Delete by Id
+2022-03-11 16:28:55,288 INFO  [log] Status: FINISHED 
+2022-03-11 16:28:55,290 INFO  [log] TimeTaken: 3548
+2022-03-11 16:28:55,303 INFO  [log] Number of Steps executed is :4
+2022-03-11 16:28:56,022 INFO  [log] The number of rows are 4 and The Number of column are 3
+2022-03-11 16:29:00,232 INFO  [log] Email firstname lastname properties
+2022-03-11 16:29:00,246 INFO  [log] Creat customer
+2022-03-11 16:29:00,247 INFO  [log] Get customer by Id
+2022-03-11 16:29:00,257 INFO  [log] Delete by Id
+2022-03-11 16:29:00,260 INFO  [log] Status: FINISHED 
+2022-03-11 16:29:00,265 INFO  [log] TimeTaken: 4143
+2022-03-11 16:29:00,267 INFO  [log] Number of Steps executed is :4
+2022-03-11 16:29:04,160 INFO  [log] Email firstname lastname properties
+2022-03-11 16:29:04,161 INFO  [log] Creat customer
+2022-03-11 16:29:04,163 INFO  [log] Get customer by Id
+2022-03-11 16:29:04,164 INFO  [log] Delete by Id
+2022-03-11 16:29:04,165 INFO  [log] Status: FINISHED 
+2022-03-11 16:29:04,166 INFO  [log] TimeTaken: 3794
+2022-03-11 16:29:04,169 INFO  [log] Number of Steps executed is :4
+2022-03-11 16:29:07,794 INFO  [log] Email firstname lastname properties
+2022-03-11 16:29:07,795 INFO  [log] Creat customer
+2022-03-11 16:29:07,795 INFO  [log] Get customer by Id
+2022-03-11 16:29:07,796 INFO  [log] Delete by Id
+2022-03-11 16:29:07,797 INFO  [log] Status: FINISHED 
+2022-03-11 16:29:07,800 INFO  [log] TimeTaken: 3604
+2022-03-11 16:29:07,801 INFO  [log] Number of Steps executed is :4
+2022-03-11 16:29:11,301 INFO  [log] Email firstname lastname properties
+2022-03-11 16:29:11,303 INFO  [log] Creat customer
+2022-03-11 16:29:11,304 INFO  [log] Get customer by Id
+2022-03-11 16:29:11,305 INFO  [log] Delete by Id
+2022-03-11 16:29:11,306 INFO  [log] Status: FINISHED 
+2022-03-11 16:29:11,307 INFO  [log] TimeTaken: 3462
+2022-03-11 16:29:11,310 INFO  [log] Number of Steps executed is :4
