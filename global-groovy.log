@@ -41,3 +41,178 @@
 2022-03-11 16:29:11,306 INFO  [log] Status: FINISHED 
 2022-03-11 16:29:11,307 INFO  [log] TimeTaken: 3462
 2022-03-11 16:29:11,310 INFO  [log] Number of Steps executed is :4
+2022-03-13 21:04:22,828 INFO  [log] 14438
+2022-03-13 21:04:27,657 INFO  [log] 
+2022-03-13 21:04:27,696 INFO  [log] 4
+2022-03-13 21:04:27,713 INFO  [log] Email firstname lastname properties
+2022-03-13 21:04:27,713 INFO  [log] Creat customer
+2022-03-13 21:04:27,716 INFO  [log] Get customer by Id
+2022-03-13 21:04:27,717 INFO  [log] Delete by Id
+2022-03-13 21:04:31,241 INFO  [log] Email firstname lastname properties
+2022-03-13 21:04:31,241 INFO  [log] Creat customer
+2022-03-13 21:04:31,243 INFO  [log] Get customer by Id
+2022-03-13 21:04:31,243 INFO  [log] Delete by Id
+2022-03-13 21:04:31,256 INFO  [log] Status: FINISHED 
+2022-03-13 21:04:31,257 INFO  [log] TimeTaken: 3466
+2022-03-13 21:04:31,273 INFO  [log] Number of Steps executed is :4
+2022-03-13 21:04:32,022 INFO  [log] The number of rows are 4 and The Number of column are 3
+2022-03-13 21:04:35,556 INFO  [log] Email firstname lastname properties
+2022-03-13 21:04:35,556 INFO  [log] Creat customer
+2022-03-13 21:04:35,558 INFO  [log] Get customer by Id
+2022-03-13 21:04:35,559 INFO  [log] Delete by Id
+2022-03-13 21:04:35,561 INFO  [log] Status: FINISHED 
+2022-03-13 21:04:35,567 INFO  [log] TimeTaken: 3484
+2022-03-13 21:04:35,569 INFO  [log] Number of Steps executed is :4
+2022-03-13 21:04:39,586 INFO  [log] Email firstname lastname properties
+2022-03-13 21:04:39,587 INFO  [log] Creat customer
+2022-03-13 21:04:39,587 INFO  [log] Get customer by Id
+2022-03-13 21:04:39,588 INFO  [log] Delete by Id
+2022-03-13 21:04:39,589 INFO  [log] Status: FINISHED 
+2022-03-13 21:04:39,590 INFO  [log] TimeTaken: 3994
+2022-03-13 21:04:39,591 INFO  [log] Number of Steps executed is :4
+2022-03-13 21:04:43,259 INFO  [log] Email firstname lastname properties
+2022-03-13 21:04:43,261 INFO  [log] Creat customer
+2022-03-13 21:04:43,261 INFO  [log] Get customer by Id
+2022-03-13 21:04:43,264 INFO  [log] Delete by Id
+2022-03-13 21:04:43,265 INFO  [log] Status: FINISHED 
+2022-03-13 21:04:43,268 INFO  [log] TimeTaken: 3654
+2022-03-13 21:04:43,268 INFO  [log] Number of Steps executed is :4
+2022-03-13 21:04:47,124 INFO  [log] Email firstname lastname properties
+2022-03-13 21:04:47,133 INFO  [log] Creat customer
+2022-03-13 21:04:47,135 INFO  [log] Get customer by Id
+2022-03-13 21:04:47,137 INFO  [log] Delete by Id
+2022-03-13 21:04:47,138 INFO  [log] Status: FINISHED 
+2022-03-13 21:04:47,142 INFO  [log] TimeTaken: 3830
+2022-03-13 21:04:47,144 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:06:02,637 INFO  [log] 14496
+2022-03-14 10:06:06,515 INFO  [log] 
+2022-03-14 10:06:06,562 INFO  [log] 4
+2022-03-14 10:06:06,621 INFO  [log] Email firstname lastname properties
+2022-03-14 10:06:06,647 INFO  [log] Creat customer
+2022-03-14 10:06:06,673 INFO  [log] Get customer by Id
+2022-03-14 10:06:06,682 INFO  [log] Delete by Id
+2022-03-14 10:06:10,226 INFO  [log] Email firstname lastname properties
+2022-03-14 10:06:10,228 INFO  [log] Creat customer
+2022-03-14 10:06:10,228 INFO  [log] Get customer by Id
+2022-03-14 10:06:10,229 INFO  [log] Delete by Id
+2022-03-14 10:06:10,245 INFO  [log] Status: FINISHED 
+2022-03-14 10:06:10,245 INFO  [log] TimeTaken: 3468
+2022-03-14 10:06:10,266 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:06:11,037 INFO  [log] The number of rows are 4 and The Number of column are 3
+2022-03-14 10:06:14,612 INFO  [log] Email firstname lastname properties
+2022-03-14 10:06:14,613 INFO  [log] Creat customer
+2022-03-14 10:06:14,615 INFO  [log] Get customer by Id
+2022-03-14 10:06:14,615 INFO  [log] Delete by Id
+2022-03-14 10:06:14,617 INFO  [log] Status: FINISHED 
+2022-03-14 10:06:14,617 INFO  [log] TimeTaken: 3516
+2022-03-14 10:06:14,617 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:06:18,144 INFO  [log] Email firstname lastname properties
+2022-03-14 10:06:18,145 INFO  [log] Creat customer
+2022-03-14 10:06:18,146 INFO  [log] Get customer by Id
+2022-03-14 10:06:18,147 INFO  [log] Delete by Id
+2022-03-14 10:06:18,148 INFO  [log] Status: FINISHED 
+2022-03-14 10:06:18,149 INFO  [log] TimeTaken: 3511
+2022-03-14 10:06:18,149 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:06:21,714 INFO  [log] Email firstname lastname properties
+2022-03-14 10:06:21,716 INFO  [log] Creat customer
+2022-03-14 10:06:21,717 INFO  [log] Get customer by Id
+2022-03-14 10:06:21,719 INFO  [log] Delete by Id
+2022-03-14 10:06:21,720 INFO  [log] Status: FINISHED 
+2022-03-14 10:06:21,721 INFO  [log] TimeTaken: 3548
+2022-03-14 10:06:21,723 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:06:25,360 INFO  [log] Email firstname lastname properties
+2022-03-14 10:06:25,362 INFO  [log] Creat customer
+2022-03-14 10:06:25,362 INFO  [log] Get customer by Id
+2022-03-14 10:06:25,363 INFO  [log] Delete by Id
+2022-03-14 10:06:25,364 INFO  [log] Status: FINISHED 
+2022-03-14 10:06:25,366 INFO  [log] TimeTaken: 3621
+2022-03-14 10:06:25,366 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:13:42,869 INFO  [log] 14507
+2022-03-14 10:13:47,122 INFO  [log] 
+2022-03-14 10:13:47,160 INFO  [log] 4
+2022-03-14 10:13:47,174 INFO  [log] Email firstname lastname properties
+2022-03-14 10:13:47,174 INFO  [log] Creat customer
+2022-03-14 10:13:47,176 INFO  [log] Get customer by Id
+2022-03-14 10:13:47,181 INFO  [log] Delete by Id
+2022-03-14 10:13:50,857 INFO  [log] Email firstname lastname properties
+2022-03-14 10:13:50,858 INFO  [log] Creat customer
+2022-03-14 10:13:50,859 INFO  [log] Get customer by Id
+2022-03-14 10:13:50,862 INFO  [log] Delete by Id
+2022-03-14 10:13:50,875 INFO  [log] Status: FINISHED 
+2022-03-14 10:13:50,876 INFO  [log] TimeTaken: 3585
+2022-03-14 10:13:50,892 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:13:51,525 INFO  [log] The number of rows are 4 and The Number of column are 3
+2022-03-14 10:13:55,390 INFO  [log] Email firstname lastname properties
+2022-03-14 10:13:55,400 INFO  [log] Creat customer
+2022-03-14 10:13:55,409 INFO  [log] Get customer by Id
+2022-03-14 10:13:55,417 INFO  [log] Delete by Id
+2022-03-14 10:13:55,426 INFO  [log] Status: FINISHED 
+2022-03-14 10:13:55,436 INFO  [log] TimeTaken: 3662
+2022-03-14 10:13:55,439 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:13:58,987 INFO  [log] Email firstname lastname properties
+2022-03-14 10:13:58,989 INFO  [log] Creat customer
+2022-03-14 10:13:58,991 INFO  [log] Get customer by Id
+2022-03-14 10:13:58,992 INFO  [log] Delete by Id
+2022-03-14 10:13:58,993 INFO  [log] Status: FINISHED 
+2022-03-14 10:13:58,996 INFO  [log] TimeTaken: 3493
+2022-03-14 10:13:59,000 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:14:02,439 INFO  [log] Email firstname lastname properties
+2022-03-14 10:14:02,439 INFO  [log] Creat customer
+2022-03-14 10:14:02,440 INFO  [log] Get customer by Id
+2022-03-14 10:14:02,441 INFO  [log] Delete by Id
+2022-03-14 10:14:02,449 INFO  [log] Status: FINISHED 
+2022-03-14 10:14:02,449 INFO  [log] TimeTaken: 3423
+2022-03-14 10:14:02,450 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:14:06,120 INFO  [log] Email firstname lastname properties
+2022-03-14 10:14:06,136 INFO  [log] Creat customer
+2022-03-14 10:14:06,152 INFO  [log] Get customer by Id
+2022-03-14 10:14:06,175 INFO  [log] Delete by Id
+2022-03-14 10:14:06,183 INFO  [log] Status: FINISHED 
+2022-03-14 10:14:06,193 INFO  [log] TimeTaken: 3538
+2022-03-14 10:14:06,199 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:21:58,827 INFO  [log] 14510
+2022-03-14 10:22:02,799 INFO  [log] 
+2022-03-14 10:22:02,846 INFO  [log] 4
+2022-03-14 10:22:02,863 INFO  [log] Email firstname lastname properties
+2022-03-14 10:22:02,864 INFO  [log] Creat customer
+2022-03-14 10:22:02,865 INFO  [log] Get customer by Id
+2022-03-14 10:22:02,868 INFO  [log] Delete by Id
+2022-03-14 10:22:06,495 INFO  [log] Email firstname lastname properties
+2022-03-14 10:22:06,495 INFO  [log] Creat customer
+2022-03-14 10:22:06,498 INFO  [log] Get customer by Id
+2022-03-14 10:22:06,498 INFO  [log] Delete by Id
+2022-03-14 10:22:06,510 INFO  [log] Status: FINISHED 
+2022-03-14 10:22:06,511 INFO  [log] TimeTaken: 3556
+2022-03-14 10:22:06,532 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:22:07,275 INFO  [log] The number of rows are 4 and The Number of column are 3
+2022-03-14 10:22:10,942 INFO  [log] Email firstname lastname properties
+2022-03-14 10:22:10,943 INFO  [log] Creat customer
+2022-03-14 10:22:10,944 INFO  [log] Get customer by Id
+2022-03-14 10:22:10,945 INFO  [log] Delete by Id
+2022-03-14 10:22:10,946 INFO  [log] Status: FINISHED 
+2022-03-14 10:22:10,956 INFO  [log] TimeTaken: 3606
+2022-03-14 10:22:10,962 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:22:14,724 INFO  [log] Email firstname lastname properties
+2022-03-14 10:22:14,730 INFO  [log] Creat customer
+2022-03-14 10:22:14,731 INFO  [log] Get customer by Id
+2022-03-14 10:22:14,733 INFO  [log] Delete by Id
+2022-03-14 10:22:14,734 INFO  [log] Status: FINISHED 
+2022-03-14 10:22:14,736 INFO  [log] TimeTaken: 3727
+2022-03-14 10:22:14,737 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:22:18,280 INFO  [log] Email firstname lastname properties
+2022-03-14 10:22:18,284 INFO  [log] Creat customer
+2022-03-14 10:22:18,285 INFO  [log] Get customer by Id
+2022-03-14 10:22:18,287 INFO  [log] Delete by Id
+2022-03-14 10:22:18,296 INFO  [log] Status: FINISHED 
+2022-03-14 10:22:18,298 INFO  [log] TimeTaken: 3505
+2022-03-14 10:22:18,300 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:22:21,910 INFO  [log] Email firstname lastname properties
+2022-03-14 10:22:21,940 INFO  [log] Creat customer
+2022-03-14 10:22:21,941 INFO  [log] Get customer by Id
+2022-03-14 10:22:21,946 INFO  [log] Delete by Id
+2022-03-14 10:22:21,948 INFO  [log] Status: FINISHED 
+2022-03-14 10:22:21,949 INFO  [log] TimeTaken: 3479
+2022-03-14 10:22:21,949 INFO  [log] Number of Steps executed is :4
+2022-03-14 10:29:23,938 INFO  [log] 14519
+2022-03-14 10:44:37,045 INFO  [log] 14522
+2022-03-14 10:45:48,921 INFO  [log] 14525

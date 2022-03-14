@@ -1526,7 +1526,7 @@
          </customer>\r
       </def:customerCustomerRepositoryV1SaveRequest>\r
    </soap:Body>\r
-</soap:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1/customerCustomerRepositoryV1PortType/customerCustomerRepositoryV1SaveRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite id="9d6f42e3-3a7b-4e33-ad3e-f282eef1d9f5" name="Functional"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1a6f6b5c-5490-43f8-9a9e-00b98f96f106" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Traditional" searchProperties="true"><con:settings/><con:testStep type="properties" name="Email firstname lastname properties" id="fc8c499e-a458-46a7-bb25-88ec1eb3ed64"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>email</con:name><con:value>writetogita28@gmail.com</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Geetha</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Shivanandh</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="transfer" name="Email firstname lastname property transfer" id="f10b7414-b040-4c00-a9f7-6356f8324c26"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>email</con:name><con:sourceType>email</con:sourceType><con:sourceStep>Email firstname lastname properties</con:sourceStep><con:targetType>Request</con:targetType><con:targetStep>Creat customer</con:targetStep><con:targetPath>declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+</soap:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1/customerCustomerRepositoryV1PortType/customerCustomerRepositoryV1SaveRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite id="9d6f42e3-3a7b-4e33-ad3e-f282eef1d9f5" name="Functional"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1a6f6b5c-5490-43f8-9a9e-00b98f96f106" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Traditional" searchProperties="true"><con:settings/><con:testStep type="properties" name="Email firstname lastname properties" id="fc8c499e-a458-46a7-bb25-88ec1eb3ed64"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>email</con:name><con:value>writetogita${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Geetha</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Shivanandh</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="transfer" name="Email firstname lastname property transfer" id="f10b7414-b040-4c00-a9f7-6356f8324c26"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>email</con:name><con:sourceType>email</con:sourceType><con:sourceStep>Email firstname lastname properties</con:sourceStep><con:targetType>Request</con:targetType><con:targetStep>Creat customer</con:targetStep><con:targetPath>declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
 declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
 //*:email</con:targetPath><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>firstname</con:name><con:sourceType>firstname</con:sourceType><con:sourceStep>Email firstname lastname properties</con:sourceStep><con:targetType>Request</con:targetType><con:targetStep>Creat customer</con:targetStep><con:targetPath>declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
 declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1';
@@ -1537,7 +1537,7 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCus
    <soap:Body>
       <def:customerCustomerRepositoryV1SaveRequest>
          <customer>
-            <email>writetogita28@gmail.com</email>
+            <email>writetogita${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com</email>
             <firstname>Geetha</firstname>
             <lastname>Shivanandh</lastname>
          </customer>
@@ -1551,7 +1551,7 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCus
    <soap:Header/>
    <soap:Body>
       <def:customerCustomerRepositoryV1GetByIdRequest>
-         <customerId>10271</customerId>
+         <customerId>14511</customerId>
       </def:customerCustomerRepositoryV1GetByIdRequest>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="5938c70c-fae1-4c3e-a2bb-142511ef54d2"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Delete by Id transfer" id="064efda9-72e1-4afc-89d5-da3d9bbfbfb2"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>customerId</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>Creat customer</con:sourceStep><con:sourcePath>declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
@@ -1562,10 +1562,10 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCus
    <soap:Header/>
    <soap:Body>
       <def:customerCustomerRepositoryV1DeleteByIdRequest>
-         <customerId>10271</customerId>
+         <customerId>14511</customerId>
       </def:customerCustomerRepositoryV1DeleteByIdRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="cb9b4102-ee0d-4f27-a32b-9a56d5a075f7"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="a011caac-c93b-47b2-ab56-9111453e1c36" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Property Expansion" searchProperties="true"><con:settings/><con:testStep type="properties" name="Email firstname lastname properties" id="0b89f1df-578f-4d02-855a-59ce03c2ff6e"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>email</con:name><con:value>writetogita31@gmail.com</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Welcome1</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Welcome1</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="request" name="Creat customer" id="2b3b4f7a-58c6-4c43-99d8-22846df949f5"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1Save</con:operation><con:request name="Creat customer" id="176dc0e4-f210-4e3d-b713-3c9051c31af2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="cb9b4102-ee0d-4f27-a32b-9a56d5a075f7"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="a011caac-c93b-47b2-ab56-9111453e1c36" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Property Expansion" searchProperties="true"><con:settings/><con:testStep type="properties" name="Email firstname lastname properties" id="0b89f1df-578f-4d02-855a-59ce03c2ff6e"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>email</con:name><con:value>writetogita${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Welcome1</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Welcome1</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="request" name="Creat customer" id="2b3b4f7a-58c6-4c43-99d8-22846df949f5"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1Save</con:operation><con:request name="Creat customer" id="176dc0e4-f210-4e3d-b713-3c9051c31af2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
    <soap:Header/>
    <soap:Body>
       <def:customerCustomerRepositoryV1SaveRequest>
@@ -1590,7 +1590,7 @@ declare namespace ns1='http://soap.upskills.in/soap/default?services=customerCus
          <customerId>${Creat customer#Response#//*:id}</customerId>\r
       </def:customerCustomerRepositoryV1DeleteByIdRequest>\r
    </soap:Body>\r
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="cb9b4102-ee0d-4f27-a32b-9a56d5a075f7"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="59844a5b-9e72-42a6-8a0b-69ceaf1cc718" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Script base Execution" searchProperties="true"><con:settings/><con:testStep type="properties" name="Email firstname lastname properties" id="69d67d91-e6ac-4358-8708-a029a7c0b763"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>email</con:name><con:value>writwtogita27@gmail.com</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Welcome12</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Welcome12</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="request" name="Creat customer" id="4871ff91-e3b1-4c79-9ecf-dcff7ff50dff"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1Save</con:operation><con:request name="Creat customer" id="176dc0e4-f210-4e3d-b713-3c9051c31af2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="cb9b4102-ee0d-4f27-a32b-9a56d5a075f7"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="59844a5b-9e72-42a6-8a0b-69ceaf1cc718" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Script base Execution" searchProperties="true"><con:settings/><con:testStep type="properties" name="Email firstname lastname properties" id="69d67d91-e6ac-4358-8708-a029a7c0b763"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>email</con:name><con:value>writetogita${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Welcome12</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Welcome12</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="request" name="Creat customer" id="4871ff91-e3b1-4c79-9ecf-dcff7ff50dff"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>customerCustomerRepositoryV1Binding</con:interface><con:operation>customerCustomerRepositoryV1Save</con:operation><con:request name="Creat customer" id="176dc0e4-f210-4e3d-b713-3c9051c31af2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
    <soap:Header/>
    <soap:Body>
       <def:customerCustomerRepositoryV1SaveRequest>
@@ -1628,119 +1628,4 @@ log.info sess</scriptText></con:configuration></con:assertion><con:credentials><
          <customerId>${Creat customer#Response#//*:id}</customerId>\r
       </def:customerCustomerRepositoryV1DeleteByIdRequest>\r
    </soap:Body>\r
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="cb9b4102-ee0d-4f27-a32b-9a56d5a075f7"/><con:assertion type="SOAP Fault Assertion" id="5303e202-ab79-46bf-be52-3c641ca58ac5" name="Not SOAP Fault"/><con:assertion type="Schema Compliance" id="a8327c9e-ba1e-4502-8959-ea244339a830" name="Schema Compliance"><con:configuration><definition/></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>sessionId</con:name><con:value>10278</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>sessionId</con:name><con:value>10252</con:value></con:property></con:properties></con:testSuite><con:testSuite id="58ccd830-3a6f-4051-a774-d36e886b32c0" name="System testing"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="b0be7a52-f0cf-4add-9cbe-175255fdd5ef" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="System testing" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Test Step Names" id="52425d76-e817-476a-8d3e-38cfca1931c2"><con:settings/><con:config><script>import com.eviware.soapui.model.testsuite.TestRunner.Status
-//From here i want to execute Script Based Execution
-//if i want to run script based execution from here i have to use Test Runner
-//coz it is in different test suite
-def tc = testRunner.testCase.testSuite.project.testSuites["Functional"].testCases["Script base Execution"]
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("email","writwtogita26@gmail.com")
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("firstname","Welcome12")
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("lastname","Welcome12")
-
-//i am running the entire test case by changing the data
-//if you are running more then one step in testcase
-//you have to say null means there is no context and false is coz i am not checking any condition
-tc.run(null,false)
-//i want to check what all the steps got executed
-def teststeplist = tc.getTestStepList()
-log.info teststeplist.size()
-//log.info TSL
-//i want see the names of the my test steps
-teststeplist.each
-{
-	def tsname = it.name
-	log.info tsname
-	//fetch the currect step which i am executing
-	//log.info tc.getCurrentStep().name
-}</script></con:config></con:testStep><con:testStep type="groovy" name="Status Timetaken Numberofsteps" id="0043e88d-438e-4041-a8d6-9fbb89f53263"><con:settings/><con:config><script>def tc = testRunner.testCase.testSuite.project.testSuites["Functional"].testCases["Property Expansion"]
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("email","writetogita@gmail.com")
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("firstname","Welcome1")
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("lastname","Welcome1")
-//this line will execute the entire testcase
-def runner = tc.run(null,false)
-def teststeplist = tc.getTestStepList()
-//log.info TSL
-//i want see the names of the my test steps
-teststeplist.each
-{
-	def tsname = it.name
-	log.info tsname
-	//fetch the currect step which i am executing
-	//log.info tc.getCurrentStep().name
-}
-//i want to know the status of my execution
-//this will provide me the execution status
-log.info "Status: $runner.status "
-//This will provide me the time taken forexecution
-log.info "TimeTaken: $runner.timeTaken"
-//i want to know the number of steps executed
-log.info "Number of Steps executed is :" + runner.results.size()
-
-
-
-
-</script></con:config></con:testStep><con:testStep type="groovy" name="Data driven testing" id="5f07303d-563b-479f-a4ec-68da791d6b54"><con:settings/><con:config><script>//jxl is a jar which helps connect to the excel toread and write data for me
-//since i am a tester i read dataimport jxl.*
-import jxl.*
-
-def filepath="C://Users//Moolya//Desktop//Assignment//Test Data.xls"
-//where the file is to read
-File Excel = new File(filepath)
-def email, firstname, lastname
-//excelsheet basically it contains workbook and sheets
-//i have to get the workbook
-Workbook wb = Workbook.getWorkbook(Excel)
-//i am trying to get the sheet
-Sheet sh = wb.getSheet("Sheet1")
-def row = sh.getRows().toInteger()
-def column = sh.getColumns().toInteger()
-log.info "The number of rows are $row and The Number of column are $column"
-
-//i want to fetch the data in each row and column
-for(def i=0;i&lt;row;i++)
-{
-	for(def j=0;j&lt;column;j++)
-	{
-		if(j==0)
-		{
-			email = sh.getCell(j,i).getContents()
-		}
-		else if(j==1){
-			firstname = sh.getCell(j,i).getContents()
-		}
-		else
-		{
-			lastname = sh.getCell(j,i).getContents()
-		}
-	}
-	def tc = testRunner.testCase.testSuite.project.testSuites["Functional"].testCases["Property Expansion"]
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("email","writetogita@gmail.com")
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("firstname","Welcome1")
-tc.testSteps["Email firstname lastname properties"].setPropertyValue("lastname","Welcome1")
-//this line will execute the entire testcase
-def runner = tc.run(null,false)
-def teststeplist = tc.getTestStepList()
-//log.info TSL
-//i want see the names of the my test steps
-teststeplist.each
-{
-	def tsname = it.name
-	log.info tsname
-	//fetch the currect step which i am executing
-	//log.info tc.getCurrentStep().name
-}
-//i want to know the status of my execution
-//this will provide me the execution status
-log.info "Status: $runner.status "
-//This will provide me the time taken forexecution
-log.info "TimeTaken: $runner.timeTaken"
-//i want to know the number of steps executed
-log.info "Number of Steps executed is :" + runner.results.size()
-}
-
-
-
-
-
-
-</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="cb9b4102-ee0d-4f27-a32b-9a56d5a075f7"/><con:assertion type="SOAP Fault Assertion" id="5303e202-ab79-46bf-be52-3c641ca58ac5" name="Not SOAP Fault"/><con:assertion type="Schema Compliance" id="a8327c9e-ba1e-4502-8959-ea244339a830" name="Schema Compliance"><con:configuration><definition/></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>sessionId</con:name><con:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">14514</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>sessionId</con:name><con:value>10252</con:value></con:property></con:properties></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
